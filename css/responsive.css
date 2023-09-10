@@ -1,0 +1,136 @@
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1280px) {
+    #second .right_block {
+        width: calc(100% - 845px);
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    #second .right_block {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    #third {
+        padding: 2rem 0;
+    }
+}
+
+@media only screen and (max-width:991px) {
+
+    #forth .my-card,
+    #forth .mid {
+        height: auto;
+    }
+
+    .cstm_container {
+        padding: 0 20px;
+    }
+
+    #forth .mid .my-card2 {
+        padding: 32px;
+        border: 1px solid #161616;
+        text-align: center;
+        align-items: center;
+        background-color: #161616;
+        color: #fff;
+        display: flex;
+        height: auto;
+        width: 100%;
+        margin-bottom: 16px;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    #forth .mid .my-card2 .icon_box {
+        margin-bottom: 16px;
+    }
+
+    #forth .mid .my-card2 span {
+        width: 100%;
+        display: block;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    #forth .mid .my-card3 {
+        padding: 32px;
+        border: 1px solid #161616;
+        text-align: center;
+        align-items: center;
+        background-color: #161616;
+        color: #fff;
+        display: flex;
+        height: auto;
+        width: 100%;
+        margin-bottom: 16px;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    #forth .mid .my-card3 span {
+        width: 100%;
+        display: block;
+        padding-left: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #second .left_block h1 {
+        font-size: 120px;
+        line-height: 136px;
+        color: #fff;
+        font-weight: 800;
+    }
+    #third .middle_box{
+        display: none;
+    }
+    #third .block_1{
+        height: 242px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    #second .left_block h1 {
+        font-size: 107px;
+        line-height: 98px;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    #second .right_block .text-1 {
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #ab7e39;
+        width: 284px;
+        max-width: 100%;
+        height: 90px;
+    }
+
+    #second .right_block .text-2 {
+        color: #000;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        width: 284px;
+        max-width: 100%;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    #second .left_block h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .cstm_container {
+        padding: 0 12px;
+    }
+}
